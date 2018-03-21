@@ -36,16 +36,7 @@ bool j1EntityFactory::Update(float dt)
 
 	for (iterator; iterator != entities.end(); iterator++)
 	{
-		if((*iterator)->type == PLAYER)
-		{ 
-			App->render->DrawQuad({ (*iterator)->pos.x,(*iterator)->pos.y,(*iterator)->rect.w, (*iterator)->rect.h }, 255, 150, 0, 255);
-		}
 
-		if ((*iterator)->type == ENEMY)
-		{
-			App->render->DrawQuad({ (*iterator)->pos.x,(*iterator)->pos.y,(*iterator)->rect.w, (*iterator)->rect.h }, 255, 150, 255, 255);
-		}
-		(*iterator)->Move(dt);
 	}
 
 

@@ -27,24 +27,17 @@ public:
 	bool Movement();
 
 	bool CleanUp();
-	//TODO 4 Delete this functions when the TODO 2 is done
 
 public:
-	iPoint position;
-	iPoint posaux;
-	SDL_Rect player_rect;
-	iPoint speed;
-
+	int Armor;
+	int Health;
+	int Attack;
 	Entity* Player = nullptr;
 	Entity* Enemy = nullptr;
 	Entity* Actor = nullptr;
 
 private:
-	//TODO 4 Add new task for each button
-	Task*		buttonW = nullptr;
-	Task*		buttonA = nullptr;
-	Task*		buttonS = nullptr;
-	Task*		buttonD = nullptr;
+
 };
 
 

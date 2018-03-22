@@ -15,7 +15,9 @@ class j1Scene;
 class j1Map;
 class j1EntityFactory;
 class j1Player;
-class Task;
+class j1GUI;
+class Fonts;
+class FileSystem;
 
 class j1App
 {
@@ -87,8 +89,10 @@ public:
 	j1Scene*			scene;
 	j1Map*				map;
 	j1Player*			player;
-	Task*				task;
 	j1EntityFactory*	entities;
+	j1GUI*				gui;
+	Fonts*				fonts;
+	FileSystem*			fs;
 
 private:
 

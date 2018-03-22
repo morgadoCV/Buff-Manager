@@ -1,7 +1,6 @@
-﻿  j1Player.cpp
+﻿  j1App.cpp
+  Fonts.cpp
   Generando código...
-  Compilando...
-  j1Scene.cpp
-  j1App.cpp
-  Generando código...
+     Creando biblioteca D:\Buff-Manager\Debug\Development - Class 8 Handout.lib y objeto D:\Buff-Manager\Debug\Development - Class 8 Handout.exp
+physfs.lib(physfs.obj) : warning LNK4217: se import¾ el sÝmbolo _sprintf definido localmente en la funci¾n _PHYSFS_setSaneConfig
   Motor2D.vcxproj -> D:\Buff-Manager\Debug\Development - Class 8 Handout.exe

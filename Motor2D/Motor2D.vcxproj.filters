@@ -40,6 +40,24 @@
     <ClCompile Include="j1EntityFactory.cpp">
       <Filter>Desenvolupament  ========\Modules</Filter>
     </ClCompile>
+    <ClCompile Include="GUILabel.cpp">
+      <Filter>Desenvolupament  ========\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIElem.cpp">
+      <Filter>Desenvolupament  ========\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="j1GUI.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Fonts.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="j1BuffManager.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="j1Window.h">
@@ -96,6 +114,27 @@
     <ClInclude Include="j1EntityFactory.h">
       <Filter>Desenvolupament  ========\Modules</Filter>
     </ClInclude>
+    <ClInclude Include="GUILabel.h">
+      <Filter>Desenvolupament  ========\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIElem.h">
+      <Filter>Desenvolupament  ========\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="j1GUI.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="j1BuffManager.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Programacio 2 ===========">
@@ -115,6 +154,9 @@
     </Filter>
     <Filter Include="Desenvolupament  ========\Tools\PuguiXML">
       <UniqueIdentifier>{7cb78d67-17cc-45eb-af97-e2106becce7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Desenvolupament  ========\GUI">
+      <UniqueIdentifier>{adee932d-53f7-496e-9ebb-593facbcd6f8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -14,6 +14,8 @@
 #include "j1Player.h"
 #include "j1EntityFactory.h"
 #include "j1App.h"
+#include "j1GUI.h"
+#include "FileSystem.h"
 
 
 // Constructor
@@ -31,7 +33,9 @@ j1App::j1App(int argc, char* args[]) : argc(argc), args(args)
 	map = new j1Map();
 	player = new j1Player();
 	entities = new j1EntityFactory();
-
+	gui = new j1GUI();
+	fonts = new Fonts();
+	fs = new FileSystem();
 
 	// Ordered for awake / Start / Update
 	// Reverse order of CleanUp
@@ -43,6 +47,9 @@ j1App::j1App(int argc, char* args[]) : argc(argc), args(args)
 	AddModule(scene);
 	AddModule(entities);
 	AddModule(player);
+	AddModule(gui);
+	AddModule(fonts);
+	AddModule(fs);
 
 	// render last to swap buffer
 	AddModule(render);
